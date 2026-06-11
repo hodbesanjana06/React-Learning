@@ -1,11 +1,18 @@
-import Day01 from "./Days/Day01- JSX/Day01"
-import Task from "./Days/Day01- JSX/Task"
+import { Day02, Header , Footer, Profile } from "./Days/Day02- Components/Day02"
+import { Task ,Navbar , About , Skills , Projects ,Footer_Section } from "./Days/Day02- Components/Task"
 function App() {
   return(
     <>
     
-      <Day01/>
-      <Task/>
+      
+        <Task/>
+        <Navbar/>
+        <About/>
+        <Skills/>
+        <Projects/>
+        <Footer_Section/>
+
+      
     
     </>
   )
