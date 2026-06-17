@@ -1,37 +1,37 @@
-/*
 
-/* PROPS 
+.heading{
+text-align: center;
+color: brown;
 
-.card{
+}
+.main-box {
+  /* border: 2px solid black; */
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.small-box {
+  height: 200px;
   border: 1px solid black;
-  width: 350px;
-  height: 250px;
+  text-align: center;
+  border-radius: 10px;
   padding: 30px;
-  border-radius: 25px;
-  background-color: rgb(210, 178, 240);
-  margin: 30px;
-
 }
-.card-main{
-  display: flex;
-  margin-left: 30px;
+.button1{
+  width: 150px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: 10px;
 }
-.card-info{
-  margin-top: 20px;
-}
-.name{
-  color: rgb(92, 8, 170);
+h3{
+  color: brown;
 }
 h2{
-  color: brown;
-
+  margin-bottom: 10px;
 }
-.heading{
-  text-align: center;
-  margin: 15px;
-  color: brown;
-} 
-
-*/
-
-
