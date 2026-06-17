@@ -1,11 +1,11 @@
-
+/* 
 .heading{
 text-align: center;
 color: brown;
 
 }
 .main-box {
-  /* border: 2px solid black; */
+  
   padding: 20px;
 
   display: grid;
@@ -34,4 +34,87 @@ h3{
 }
 h2{
   margin-bottom: 10px;
+} */
+
+
+.main-box{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.small-box{
+  
+  width: 380px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fcfbf9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+}
+
+.small-box h2 {
+  color: #1e3a8a;
+  margin: 12px 0;
+  text-align: left;
+  padding-left: 20px;
+}
+.small-box h3 {
+  color: #dc2626;
+  text-align: center;
+}
+
+
+.small-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.small-box li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 8px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+
+.small-box button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.small-box button:hover {
+  background: #1d4ed8;
+}
+
+.small-box h2:last-child {
+  cursor: pointer;
+  color: #ff9800;
+}
+
+.small-box h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+  color: #1e3a8a;
+}
+
+.heading{
+text-align: center;
+color: brown;
+
+}
+.label {
+  display: inline-block;
+  width: 120px;
+  color: #dc2626;
+  font-weight: bold;
 }
