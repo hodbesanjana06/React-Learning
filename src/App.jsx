@@ -1,17 +1,14 @@
 import './App.css'
-
-import EmpCard from './Days/Day04 - useState/EmpCard';
+import Array_obj_usestate from './Days/Day04 - useState/Array_obj_usestate';
 
 function App(){
   return(
     <>
-      <h2 className="heading">Employee Card </h2>
+    <div className='main-box'>
+      
+      <Array_obj_usestate/>
 
-      <div className='main-box'>
-          <EmpCard name ={'Sanjana'} age={23} dept={'Frontend'} />
-          <EmpCard name ={'Sanjana'} age={23} dept={'Frontend'}/>
-
-      </div>
+    </div>
       
     </>
   );
