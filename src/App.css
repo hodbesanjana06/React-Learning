@@ -17,12 +17,7 @@
   font-family: Arial, sans-serif;
 }
 
-.small-box h2 {
-  color: #1e3a8a;
-  margin: 12px 0;
-  text-align: left;
-  padding-left: 20px;
-}
+
 .small-box h3 {
   color: #dc2626;
   text-align: center;
@@ -70,7 +65,10 @@
   color: #1e3a8a;
   font-size: medium;
 }
-
+.small-box p {
+  color: #ff9800;
+  font-size: medium;
+}
 .heading{
 text-align: center;
 color: brown;
@@ -89,4 +87,15 @@ color: brown;
   color: rgb(77, 110, 12);
   font-weight: bold;
   font-size: medium;
+}
+
+.small-card{
+  
+  width: 300px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fcfbf9;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
 }

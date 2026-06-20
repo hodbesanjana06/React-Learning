@@ -55,3 +55,6 @@ function Employee({name , id , age , dept, username , exp , skills}){
 }
 
 export default Employee;
+
+{/* <Employee id = {101} name ="Rahul" age ={22} dept = "Frontend dev" username = "Rahul_dev" exp={2} skills={["JavaScript", "React", "Node.js", "CSS"]}/>
+      <Employee id = {102} name ="Riya" age ={24} dept = "Backend dev" username = "Riya@_dev" exp={1} skills={["python", "Django", "Node.js", "Mysql"]}/> */}
