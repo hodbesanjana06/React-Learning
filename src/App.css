@@ -19,7 +19,7 @@
 
 
 .small-box h3 {
-  color: #dc2626;
+  color: #337a04;
   text-align: center;
 }
 
@@ -66,7 +66,7 @@
   font-size: medium;
 }
 .small-box p {
-  color: #ff9800;
+  color:rgb(77, 110, 12);
   font-size: medium;
 }
 .heading{
@@ -89,6 +89,7 @@ color: brown;
   font-size: medium;
 }
 
+
 .small-card{
   
   width: 300px;
@@ -98,4 +99,19 @@ color: brown;
   border-radius: 15px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   font-family: Arial, sans-serif;
+}
+.small-box input{
+    width: 200px;
+    margin: 10px;
+    height: 30px;
+    border: 1px solid black;
+
+}
+.small-box input{
+  border-radius: 8px;
+  margin-left: 0px;
+}
+.small-box label{
+  font-weight: bold;
+  margin-right: 10px;
 }

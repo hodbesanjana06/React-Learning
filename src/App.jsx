@@ -1,36 +1,68 @@
 import './App.css'
-import ListKey from './Days/Day06 - List-Keys/ListKey';
-import Task from './Days/Day06 - List-Keys/Task';
-import MovieDashboard from './Days/Day06 - List-Keys/MovieDashboard';
+// import Form from './Days/Day07 - Forms & Controll component/Form';
+// import Game from './Days/Day07 - Forms & Controll component/Game';
+import Book from './Days/Day07 - Forms & Controll component/Book';
 
 function App(){
-  let movies = [
-  {
-    id: 1,
-    title: "Tumbadchi Manjula",
-    rating: 9
-  },
-  {
-    id: 2,
-    title: "Dashavtar",
-    rating: 10
-  },
-  {
-    id: 3,
-    title: "Avatar",
-    rating: 8
-  }
-]
+// let players = [
+//   {
+//     id : 101 ,
+//     name: 'rohit',
+//     hourse_played : 340,
+//     favorite_weapon : "Vandal",
+//     country : "India" , 
+//     joindate: "12-05-2023"
+//   },
+//   {
+//     id : 102 ,
+//     name:'dhoni',
+//     hourse_played : 320,
+//     favorite_weapon : "Vandal",
+//     country : "USA" , 
+//     joindate: "2-05-2023"
+//   },
+//   {
+//     id : 103 ,
+//     name :'virat',
+//     hourse_played : 140,
+//     favorite_weapon : "Vandal",
+//     country : "Delhi" , 
+//     joindate: "1-05-2025"
+//   },
+// ]
 
+let movies = [
+  {
+    id : 101,
+    year : 2021,
+    director : "Mohan Joshi",
+    mname : "QOT"
+  },
+  {
+    id : 102,
+    year : 2025,
+    director : "Raju Rastoji Joshi",
+    mname : "DoT's"
+
+  },
+  {
+    id : 103,
+    year : 2011,
+    director : "Mohan Joshi",
+    mname : "FIdda"
+
+  },
+]
+  
   return(
 
     <>
     <div className='main-box'>
       
-      {/* <ListKey/> */}
-      {/* <Task movies = {movies}/> */}
-      <MovieDashboard  movies = {movies}/>
-      
+      {/* <Form/> */}
+      {/* <Game players={players}/> */}
+      <Book movies={movies}/>
+
     </div>
       
     </>

@@ -9,7 +9,7 @@ function MovieDashboard({movies}){
             <div className="small-box">
 
                 <h3>Movie Dashboard</h3>
-                <h2>Theme : {isLight ? "Dark" : "Light"}</h2>
+                <h2>Theme : {isLight ? "Light" : "Dark"}</h2>
                 <button onClick={()=> setThem(!isLight)}>Toggle Theme</button><br />
 
                 <h2>Total Movies : {movies.length}</h2>
@@ -32,3 +32,23 @@ function MovieDashboard({movies}){
     )
 }
 export default MovieDashboard;
+
+
+// (App.jsx Part)
+// let movies = [
+//   {
+//     id: 1,
+//     title: "Tumbadchi Manjula",
+//     rating: 9
+//   },
+//   {
+//     id: 2,
+//     title: "Dashavtar",
+//     rating: 10
+//   },
+//   {
+//     id: 3,
+//     title: "Avatar",
+//     rating: 8
+//   }
+// ]
