@@ -21,6 +21,7 @@
 .small-box h3 {
   color: #337a04;
   text-align: center;
+ 
 }
 
 
@@ -57,13 +58,22 @@
   color: #ff9800;
 }
 
-.small-box h2 {
+.small-box h2 ,h4 {
   display: flex;
   align-items: center;
   gap: 10px;
   margin: 12px 0;
   color: #1e3a8a;
   font-size: medium;
+}
+
+.small-box h4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+  color: #1e8a4f;
+  font-size: big;
 }
 .small-box p {
   color:rgb(77, 110, 12);
@@ -74,12 +84,7 @@ text-align: center;
 color: brown;
 
 }
-.label {
-  display: inline-block;
-  width: 120px;
-  color: #dc2626;
-  font-weight: bold;
-}
+
 .profile{
   color: #dc2626;
 }
@@ -101,17 +106,27 @@ color: brown;
   font-family: Arial, sans-serif;
 }
 .small-box input{
-    width: 200px;
-    margin: 10px;
-    height: 30px;
-    border: 1px solid black;
+  flex: 1;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
 
 }
-.small-box input{
-  border-radius: 8px;
-  margin-left: 0px;
+
+.small-box input:focus {
+  border-color: #2563eb;
 }
-.small-box label{
+
+.small-box .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.small-box label {
+  width: 140px;
   font-weight: bold;
-  margin-right: 10px;
+  color: #dc2626;
 }
