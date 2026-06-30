@@ -1,82 +1,128 @@
-/* RESET */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* PAGE WRAPPER (THIS FIXES YOUR CENTER ISSUE) */
-.container {
-  width: 100%;
-  min-height: 100vh;
-  padding: 20px;
+body{
+    background: #f4f7fb;
+    padding: 30px;
 }
 
-/* TITLE */
-.title {
-  text-align: center;
-  margin: 20px 0;
-  color: brown;
+.heading{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
 }
 
-/* LOADING / ERROR */
-.msg {
-  text-align: center;
-  margin-top: 50px;
-  font-size: 20px;
+.student-form{
+    width: 700px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
 }
 
-/* SEARCH BOX */
-.search-box {
-  width: 400px;
-  margin: 20px auto;
-  padding: 15px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-  text-align: center;
+.student-form label{
+    display: inline-block;
+    width: 120px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
 }
 
-.search-box input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  outline: none;
+.student-form input[type="text"],
+.student-form input[type="number"],
+.student-form input[type="email"],
+.student-form select,
+.student-form textarea{
+    width: 70%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 5px;
+    transition: .3s;
 }
 
-.search-box p {
-  margin-top: 10px;
-  color: #2563eb;
-  font-weight: bold;
+.student-form textarea{
+    height: 90px;
+    resize: none;
 }
 
-/* GRID (IMPORTANT FIX) */
-.main-box {
-  width: 100%;
-  max-width: 1200px;
-  margin: 20px auto;
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+.student-form input:focus,
+.student-form select:focus,
+.student-form textarea:focus{
+    border-color: royalblue;
+    box-shadow: 0 0 5px rgba(65,105,225,.4);
 }
 
-/* CARD */
-.small-box {
-  background: #f9f9f9;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
+.student-form input[type="radio"],
+.student-form input[type="checkbox"]{
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
-.small-box h3 {
-  color: #1e3a8a;
-  margin-bottom: 10px;
+.student-form p{
+    color: red;
+    font-size: 14px;
+    margin-left: 125px;
+    margin-bottom: 8px;
 }
 
-.small-box p {
-  margin: 5px 0;
-  color: #1e8a4f;
+hr{
+    margin: 20px 0;
+}
+
+button{
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: white;
+    font-size: 15px;
+    transition: .3s;
+}
+
+button[type="submit"]{
+    background: #28a745;
+}
+
+button[type="submit"]:hover{
+    background: #218838;
+}
+
+button[type="button"]{
+    background: #007bff;
+}
+
+button[type="button"]:hover{
+    background: #0056b3;
+}
+
+.small-card{
+    margin-top: 20px;
+    background: white;
+    border-left: 6px solid royalblue;
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+}
+
+.small-card h2{
+    color: royalblue;
+    margin-bottom: 10px;
+}
+
+.small-card h4{
+    color: #444;
+    font-weight: normal;
+    line-height: 1.8;
+}
+
+.small-card hr{
+    margin: 10px 0;
 }

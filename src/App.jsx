@@ -1,7 +1,6 @@
 import './App.css'
-// import API from './Days/Day 09 - Api/API';
-import Emp from './Days/Day 09 - Api/Emp';
-
+// import AdvanceForm from './Days/Day10 - AdvanceForm/AdvanceForm';
+import StudentForm from './Days/Day10 - AdvanceForm/StudentForm';
 
 function App(){
   
@@ -10,8 +9,8 @@ function App(){
     <>
     <div className='main-box'>
 
-      {/* <API/> */}
-      <Emp/>
+      {/* <AdvanceForm/> */}
+      <StudentForm/>
 
     </div>
       
