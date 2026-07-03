@@ -1,6 +1,7 @@
 import './App.css'
-// import AdvanceForm from './Days/Day10 - AdvanceForm/AdvanceForm';
-import StudentForm from './Days/Day10 - AdvanceForm/StudentForm';
+// import Operation from './Days/Day11 - Curd-Operation/Operations';
+import EmployeeSystem from './Days/Day11 - Curd-Operation/EmployeeSystem';
+
 
 function App(){
   
@@ -9,8 +10,8 @@ function App(){
     <>
     <div className='main-box'>
 
-      {/* <AdvanceForm/> */}
-      <StudentForm/>
+      {/* <Operation/>       */}
+      <EmployeeSystem/>
 
     </div>
       
