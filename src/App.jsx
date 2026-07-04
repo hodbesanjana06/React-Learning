@@ -1,7 +1,5 @@
 import './App.css'
-// import Operation from './Days/Day11 - Curd-Operation/Operations';
-import EmployeeSystem from './Days/Day11 - Curd-Operation/EmployeeSystem';
-
+import All from './Days/Day11 - Curd-Operation/All';
 
 function App(){
   
@@ -10,8 +8,7 @@ function App(){
     <>
     <div className='main-box'>
 
-      {/* <Operation/>       */}
-      <EmployeeSystem/>
+      <All/>
 
     </div>
       
