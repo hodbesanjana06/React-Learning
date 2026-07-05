@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+nav{
+    background:#1e3a8a;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+}
+
+nav a{
+    text-decoration:none;
+    margin:0 15px;
+    color:white;
+    font-size:18px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#facc15;
+}
+
+.active{
+    color:#facc15 !important;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    margin:40px auto;
+    text-align:center;
+}
+
+h2,h3,h4{
+    margin-bottom:20px;
+    color:#1e3a8a;
+}
+
+button{
+    padding:10px 20px;
+    margin:10px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:scale(1.05);
+}
+
+.course-list{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+    margin-top:20px;
+}
+
+.course-list button{
+    width:130px;
+}
+
+.course-details{
+    width:400px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact-card{
+    width:400px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact-card label{
+    display:block;
+    text-align:left;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:500;
+}
+
+.contact-card input{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    outline:none;
+    margin-bottom:10px;
+}
+
+.contact-card input:focus{
+    border-color:#2563eb;
+}
+
+.about-links{
+    margin:20px 0;
+}
+
+.about-links a{
+    display:inline-block;
+    text-decoration:none;
+    color:#2563eb;
+    margin:8px;
+    font-weight:500;
+}
+
+.about-links a:hover{
+    color:#1d4ed8;
+}
+
+ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+ul li{
+    background:white;
+    width:300px;
+    margin:10px auto;
+    padding:12px;
+    border-radius:8px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+.mission{
+    margin-top:20px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+
+@media(max-width:600px){
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .contact-card,
+    .course-details{
+        width:90%;
+    }
+
+    .course-list{
+        flex-direction:column;
+        align-items:center;
+    }
+}
