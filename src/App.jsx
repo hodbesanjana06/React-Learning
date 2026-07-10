@@ -1,11 +1,11 @@
 import "./Days/Router/router.css";
-import UseReducer from "./Days/Day14 - UseReducer/UseReducer";
-import Todo from "./Days/Day14 - UseReducer/Todo";
+import Task from "./Days/Day15 - Custome Hooks/Task";
+// import Home from "./Days/Day15 - Custome Hooks/Home";
 function App(){
   return(
     <>
-        {/* <UseReducer/> */}
-        <Todo/>
+       {/* <Home/> */}
+       <Task/>
     </>
   )
 }
